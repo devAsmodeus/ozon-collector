@@ -12,6 +12,11 @@ class Settings(BaseSettings):
     OZON_API_KEY: str = ""
     OZON_API_BASE_URL: str = "https://api-seller.ozon.ru"
 
+    # Ozon Performance API (реклама)
+    OZON_PERFORMANCE_CLIENT_ID: str = ""
+    OZON_PERFORMANCE_CLIENT_SECRET: str = ""
+    OZON_PERFORMANCE_API_URL: str = "https://api-performance.ozon.ru"
+
     # PostgreSQL
     DB_HOST: str = "localhost"
     DB_PORT: int = 5432
